@@ -4,10 +4,9 @@ This is a windows console application built using C language. The main aim of th
 
 A compiler is a program that converts instructions into a machine-code or lower-level form so that they can be read and executed by a computer. 
 
-The instruction set of the language is predefined and the datasheet corresponding to the instructions is as follows:
+**The instruction set of the language is predefined and the datasheet corresponding to the instructions is as follows :**
 
-1. There are 8 registers namely:
-   AX, BX, CX, DX, EX, FX, GX, HX 
+1. There are 8 registers namely : AX, BX, CX, DX, EX, FX, GX, HX 
 2. Any arithmetic operation can be done only using registers.
 3. There are two input/output instruction.
 4. Supported Arithmetic operators are ADD, SUB, MUL ,DIV.
@@ -15,10 +14,10 @@ The instruction set of the language is predefined and the datasheet correspondin
 6. JUMP instruction is used to jump to the corresponding label in the program.
 7. Program execution starts with the keyword START and ends with the keyword END.
 
-SOFTWARE REQUIREMENTS: 
-Operating system : WINDOWS
-Language         :  C
-IDE              : Visual Studio 
+##SOFTWARE REQUIREMENTS :
+1. Operating system : WINDOWS
+2. Language         :  C
+3. IDE              : Visual Studio 
 
 
 The Power Point Presentation provided above consists clear expalanation of the generation of  Intermediate language,Symbol table, Memory table etc and also the step wise execution of the sample assembly code. Sample assembly code is provided in the sample.asm file.
