@@ -1,0 +1,127 @@
+﻿Build started 29-07-2017 22:13:05.
+     1>Project "F:\MiniProject\git_repo\Assembly_compiler\compiler\compiler.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt executor.c main.c
+         main.c
+     1>f:\miniproject\git_repo\assembly_compiler\compiler\main.c(241): warning C4101: 'token' : unreferenced local variable
+     1>f:\miniproject\git_repo\assembly_compiler\compiler\main.c(329): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\miniproject\git_repo\assembly_compiler\compiler\main.c(332): warning C4018: '<' : signed/unsigned mismatch
+         executor.c
+         Generating Code...
+     1>f:\miniproject\git_repo\assembly_compiler\compiler\main.c(122): warning C4715: 'generate_opcode' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MiniProject\git_repo\Assembly_compiler\Debug\compiler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\MiniProject\git_repo\Assembly_compiler\Debug\compiler.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MiniProject\git_repo\Assembly_compiler\Debug\compiler.lib" /MACHINE:X86 Debug\executor.obj
+         Debug\main.obj
+         compiler.vcxproj -> F:\MiniProject\git_repo\Assembly_compiler\Debug\compiler.exe
+     1>Done Building Project "F:\MiniProject\git_repo\Assembly_compiler\compiler\compiler.vcxproj" (Build target(s)).
+
+Project Performance Summary:
+    12988 ms  F:\MiniProject\git_repo\Assembly_compiler\compiler\compiler.vcxproj   1 calls
+              12988 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  AfterBuild                                 1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  _BuildLinkAction                           1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  Build                                      1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        1 ms  _PrepareForReferenceResolution             1 calls
+        1 ms  MakeDirsForMidl                            1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        1 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        1 ms  ComputeRCOutputs                           1 calls
+        1 ms  SplitResourcesByCulture                    1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  MakeDirsForResourceCompile                 1 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
+        1 ms  ComputeLinkSwitches                        1 calls
+        1 ms  RegisterOutput                             1 calls
+        1 ms  GetFrameworkPaths                          1 calls
+        1 ms  AssignTargetPaths                          1 calls
+        1 ms  ComputeManifestInputsTargets               1 calls
+        1 ms  ComputeCLOutputs                           1 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        1 ms  CopyFilesToOutputDirectory                 1 calls
+        2 ms  DoLinkOutputFilesMatch                     1 calls
+        2 ms  _PrepareForBuild                           1 calls
+        3 ms  FinalizeBuildStatus                        1 calls
+        3 ms  ResolveProjectReferences                   1 calls
+       21 ms  WarnCompileDuplicatedFilename              1 calls
+       30 ms  AssignProjectConfiguration                 1 calls
+       42 ms  InitializeBuildStatus                      1 calls
+       44 ms  _SplitProjectReferencesByFileExistence     1 calls
+       58 ms  GetReferenceAssemblyPaths                  1 calls
+       64 ms  PrepareForBuild                            1 calls
+      292 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+      788 ms  SetBuildDefaultEnvironmentVariables        1 calls
+     3106 ms  SetCABuildNativeEnvironmentVariables       1 calls
+     3407 ms  Link                                       1 calls
+     5049 ms  ClCompile                                  1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:12.91
