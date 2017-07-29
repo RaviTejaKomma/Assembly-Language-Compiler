@@ -14,7 +14,7 @@ A compiler is a program that converts instructions into a machine-code or lower-
 6. JUMP instruction is used to jump to the corresponding label in the program.
 7. Program execution starts with the keyword START and ends with the keyword END.
 
-##SOFTWARE REQUIREMENTS :
+**SOFTWARE REQUIREMENTS :**
 1. Operating system : WINDOWS
 2. Language         :  C
 3. IDE              : Visual Studio 
