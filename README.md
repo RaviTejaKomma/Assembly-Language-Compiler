@@ -22,4 +22,6 @@ A compiler is a program that converts instructions into a machine-code or lower-
 
 The Power Point Presentation provided above consists clear expalanation of the generation of  Intermediate language,Symbol table, Memory table etc and also the step wise execution of the sample assembly code. Sample assembly code is provided in the sample.asm file.
 
+The code was written in Visual Studio IDE, so it is supposed to be compiled using a VS compiler. Specifically, this program was tested in Visual Studio 2013 on a 64-bit computer.
+
 Note: Do not have high expectations on this compiler. If you try to compile a program which vioaltes the rules there's a good chance to see compile errors or miscompilations. This is basically a one-man project, and I have spent only a few days of my spare time so far.
